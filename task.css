@@ -1,0 +1,273 @@
+body{
+   background-color: #f6f0f0ab;
+}
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    mybox-sizing: border-mybox;
+    
+}
+html{
+    /* font-size: 6.25%; */
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Courier New', Courier, monospace
+    overflow-x: hidden;
+}
+
+::selection{
+    background: black;
+    color: rgb(194, 192, 192);
+}
+
+
+span{
+    color: rgb(68, 60, 61);
+}
+.title{
+   /* margin-left: 10px; */
+   background-color: rgba(0, 0, 0, 0.851);
+   color: #fff;
+   height: 14vmin;
+   line-height: 13vmin;
+}
+.title h1{
+   display: flex;
+   align-items: baseline;
+   margin-left: 30px;
+}
+.titlep{
+   font-size: 1.5rem;
+}
+
+.title span{
+   color: white;
+   font-size: 2.5rem;
+}
+
+/* //////////////////////////navbar/////// */
+
+.nav-bar{
+   height: 47px;
+   line-height: 47px;
+   font-size: 0.61rem;
+   text-shadow: darkslategrey 10px;
+   
+}
+.nav_elements{
+   margin-left: 15px;
+   /* gap: px; */
+   display: flex;
+
+}
+.home{
+   background-color: black;
+   color: #fff;
+   height: 47px;
+   width: 70px;
+   text-align: center;
+   /* position: relative;
+   top : 10px; */
+   line-height: 40px;
+}
+.hoverable p{
+   /* top : 3px;
+   position: relative; */
+   padding-left: 17px;
+   padding-right: 17px;
+}
+.hoverable p:hover{
+   background-color: rgb(31, 30, 30);
+}
+.hoverable p:hover{
+   position: relative;
+   top : 3px;
+   
+}
+.hoverable:hover{
+   cursor: pointer;
+   background-color: black;
+   color: #fff;
+   height: 47px;
+   /* width: 70px; */
+   text-align: center;
+   line-height: 40px;
+}
+.search-icon{
+   position: absolute;
+   right: 35px;
+   font-size: 19px;
+}
+
+.sports i{
+   margin-left: 4px;
+   font-size: 11px;
+}
+
+
+/* //////////////////////news///////////// */
+
+
+.news{
+   height: 6vmin;
+   line-height: 6vmin;
+   padding-left: 11px;
+   background-color: rgb(228, 213, 213);
+   display: flex;
+}
+.left{
+   display: flex;
+   gap: 1.7rem;
+}
+.sec{
+   display: flex;
+   gap: 0.7rem;
+   font-weight:bold;
+   font-size: small;
+   font-family:monospace;
+}
+#local{
+   font-size: 13px;
+   color:rgb(112, 128, 127);
+   font-family:sans-serif;
+}
+
+.right{
+   display: flex;
+   position: absolute;
+   right: 10px;
+   gap: 1rem;
+}
+#date{
+   font-size: 13px;
+   color:rgb(128, 146, 145);
+   font-family:sans-serif;
+}
+
+/* ////////////////main////////////////////// */
+
+.main{
+   margin-top: 38px;
+   margin-left: 20px;
+   display: flex;
+   gap: 0.9rem;
+}
+
+.mybox1{
+   height: 400px;
+   width: 360px;
+   border-radius: 0.189rem;
+   /* background-attachment: fixed; */
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: url(https://th.bing.com/th/id/OIP.wPxbG1mIys7Hz8LDUkb5bgHaE8?w=249&h=180&c=7&r=0&o=5&dpr=1.7&pid=1.7);
+   background-size: cover;
+}
+.mybox2{
+   height: 400px;
+   width: 196px;
+   /* background-attachment: fixed; */
+   /* background-repeat: no-repeat; */
+   /* background-size: cover; */
+   background-image: url(https://th.bing.com/th/id/OIP.eIm3lGgYcCnH1I1vVGIklgHaHa?w=155&h=180&c=7&r=0&o=5&dpr=1.7&pid=1.7);
+   /* background-size: contain; */
+   border-radius: 0.189rem;
+}
+.mybox3{
+   height: 400px;
+   width: 160px;
+   margin-right: 20px;
+   gap: 0.9rem; 
+}
+.mybox31{
+   height: 190px;
+   width: 190px;
+   background-image: url(https://th.bing.com/th/id/OIP.UVFEqSVVkni_zKDNjjM4_QHaE7?w=236&h=180&c=7&r=0&o=5&dpr=1.7&pid=1.7);
+   background-size: cover;
+   border-radius: 0.189rem;
+}
+.mybox32{
+   height: 195px;
+   margin-top: 14px;
+   width: 190px;
+   background-image: url(https://th.bing.com/th/id/OIP.HzWgNiwyDrNVwKnDptOd4gHaFS?w=273&h=196&c=7&r=0&o=5&dpr=1.7&pid=1.7);
+   background-size: cover;
+   border-radius: 0.189rem;
+}
+
+.mybox4{
+   margin-left: 20px;
+   width: 220px;
+   height: 340px;
+   border-radius: 0.5rem;
+}
+.type{
+   display: flex;
+   width: 220px;
+   height: 40px;
+   background-color: #fff;
+   margin-bottom: 8px;
+}
+
+.latest{
+   width: 110px;
+   height: 40px;
+   background-color: black;
+   color: #fff;
+   text-align: center;
+   line-height: 40px;
+   border-top-left-radius: 0.3rem;
+}
+.popular{
+   width: 110px;
+   height: 40px;
+   text-align: center;
+   line-height: 40px;
+   border-top-right-radius: 0.3rem;
+}
+
+.main p{
+   width: 300px;
+   position: absolute;
+   margin-left: 70px;
+   display: ;
+   height: 60px;
+   font-size: 0.5rem;
+
+}
+
+.mybox41{
+   width: 60px;
+   height: 60px;
+   background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://th.bing.com/th/id/OIP._kchNJ9hGfABD2GCJ8jxGAHaE8?w=239&h=180&c=7&r=0&o=5&dpr=1.7&pid=1.7);
+   background-size: cover;
+   margin-bottom: 25px;
+   
+}
+.mybox42{
+   width: 60px;
+   height: 60px;
+   background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://th.bing.com/th/id/OIP.Aj5DTUHAjtA9L-in9Tr0yAHaFj?w=202&h=180&c=7&r=0&o=5&dpr=1.7&pid=1.7);
+   background-size: cover;
+   margin-bottom: 25px;
+   
+}
+.mybox43{
+   width: 60px;
+   height: 60px;
+   background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://th.bing.com/th/id/OIP.Aj5DTUHAjtA9L-in9Tr0yAHaFj?w=202&h=180&c=7&r=0&o=5&dpr=1.7&pid=1.7);
+   background-size: cover;
+   margin-bottom: 25px;
+   
+}
+.mybox44{
+   width: 60px;
+   height: 60px;
+   background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://th.bing.com/th/id/OIP._kchNJ9hGfABD2GCJ8jxGAHaE8?w=239&h=180&c=7&r=0&o=5&dpr=1.7&pid=1.7);
+   background-size: cover;
+   margin-bottom: 25px;
+   
+}
