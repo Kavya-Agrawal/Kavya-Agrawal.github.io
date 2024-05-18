@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>My Website</title>
+
+   <link rel="stylesheet" href="task.css">
+
+
+   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@661&display=swap" rel="stylesheet">
+       
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <link rel="stylesheet" href="https://fontawesome.com/v4.7.0/icons/">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+
+   <link rel="stylesheet" href="https://fontawesome.com/v4.7.0/icon/meetup">
+
+</head>
+<body>
+    <div class="title">
+        <h1>
+            <p class="titlep"><span>T</span>HE<span>N</span>EWS<span>H</span>IVE</p>
+        </h1>
+    </div>
+
+    <div class="nav-bar">
+        <div class="nav_elements">
+            <div class="home hoverable">
+               <p>HOME</p>
+            </div>
+            <div class="newsmenu hoverable">
+               <p>NEWS</p>
+            </div>
+            <div class="world hoverable"><p>WORLD</p></div>
+            <div class="business hoverable"><p>BUSINESS</p></div>
+            <div class="politics hoverable"><p>POLITICS</p></div>
+            <div class="entertainment hoverable"><p>ENTERTAINMENT</p></div>
+            <div class="sports hoverable">
+                <p>SPORTS</p>
+               </div>
+               <div>
+                  
+                  <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="search-icon hoverable"><i><i class="fa-solid fa-magnifying-glass"></i></i></div>
+        </div>
+    </div>
+
+
+    <div class="news">
+        <div class="left">
+            <div class="sec">
+                <div id="curr-icon">
+                    <i class="fa-solid fa-bolt-lightning"></i>
+                </div>
+                <div>
+                    BREAKING NEWS
+                </div>
+            </div>
+
+            <div id="local">
+                Local coming back on street again after
+            </div>
+        </div>
+
+
+        <div class="right">
+            <div>
+                <i class="fa-solid fa-cloud-moon-rain"></i>
+            </div>
+            <div id="date">,May 16, 2024 in</div>
+        </div>
+
+    </div>
+
+
+    <div class="main">
+        <div class="mybox1"></div>
+
+        <div class="mybox2"></div>
+        <div class="mybox3">
+            <div class="mybox31"></div>
+            <div class="mybox32"></div>
+        </div>
+
+
+        <div class="mybox4">
+            <div class="type">
+                <div class="latest">Latest</div>
+                <div class="popular">Popular</div>
+            </div>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt illo voluptate quidem ullam? Quae sunt quasi quod atque, officiis omnis voluptate. Aliquid blanditiis molestias atque quasi perspiciatis reiciendis alias quia?</p>
+            <div class="mybox43"></div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt illo voluptate quidem ullam? Quae sunt quasi quod atque, officiis omnis voluptate. Aliquid blanditiis molestias atque quasi perspiciatis reiciendis alias quia?</p>
+            <div class="mybox42"></div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt illo voluptate quidem ullam? Quae sunt quasi quod atque, officiis omnis voluptate. Aliquid blanditiis molestias atque quasi perspiciatis reiciendis alias quia?</p>
+            <div class="mybox41"></div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt illo voluptate quidem ullam? Quae sunt quasi quod atque, officiis omnis voluptate. Aliquid blanditiis molestias atque quasi perspiciatis reiciendis alias quia?</p>
+            <div class="mybox44"></div>
+        </div>
+    </div>
+
+
+    <script>
+
+document.addEventListener('DOMContentLoaded', function () {
+    fetch('[{"id":1,"type":"cultural","headline":"India won the international award for the best cultural country","date":"2021-06-01","image":"https://cdn.pixabay.com/photo/2017/03/27/12/45/woman-2178480_1280.jpg","author":"John Doe","content":"India has been awarded the best cultural country award by the International Cultural Organization for its rich and diverse cultural heritage."},{"id":2,"type":"historical","headline":"Lost texts from Mount Vesuvius eruption deciphered with new AI","date":"2024-05-10","image":"https://cdn.pixabay.com/photo/2014/01/18/10/14/vaulted-cellar-247391_1280.jpg","author":"Jane Smith","content":"New AI techniques are helping researchers read previously illegible texts carbonized after the eruption of Mount Vesuvius in A.D. 79, revealing new historical insights."},{"id":3,"type":"historical","headline":"Gobekli Tepe reveals new 11,000-year-old finds","date":"2024-05-10","image":"https://cdn.pixabay.com/photo/2023/03/28/18/28/hieroglyph-7883891_1280.jpg","author":"Ali Khan","content":"Recent excavations at Gobekli Tepe have uncovered more ancient artifacts, including statues and carvings, dating back 11,000 years, offering a glimpse into early human civilization."},{"id":4,"type":"lifestyle","headline":"The London National Gallery celebrates 200 years","date":"2024-05-08","image":"https://cdn.pixabay.com/photo/2017/07/24/08/19/national-gallery-2533907_1280.jpg","author":"Emily Clark","content":"The London National Gallery is celebrating its bicentennial with special exhibitions and events, reflecting on its history and looking towards future innovations in public outreach."},{"id":5,"type":"lifestyle","headline":"University students use technology to restore historic buildings in Hawaii","date":"2024-05-06","image":"https://cdn.pixabay.com/photo/2020/05/18/22/18/university-5188610_1280.jpg","author":"Michael Lee","content":"Students at the University of Hawaii are employing cutting-edge technology to create digital twins of historic buildings damaged in wildfires, preserving them for future generations."},{"id":6,"type":"food","headline":"Exploring the culinary heritage of Armenia","date":"2024-05-10","image":"https://cdn.pixabay.com/photo/2018/10/02/12/12/armenia-3718710_1280.jpg","author":"Nina Petrosyan","content":"A deep dive into Armenian cuisine reveals a rich tradition of flavors and techniques, with dishes like khorovats and dolma highlighting the countrys culinary diversity."},{"id":7,"type":"food","headline":"The rise of sustainable seafood: Benefits and challenges","date":"2024-05-05","image":"https://cdn.pixabay.com/photo/2020/05/31/19/53/light-bulb-5244001_1280.jpg","author":"Carlos Rodriguez","content":"Sustainable seafood is gaining popularity as consumers become more environmentally conscious. This article explores the benefits and challenges of this trend."},{"id":8,"type":"science","headline":"Mysterious L-shaped structure discovered near Giza Pyramids","date":"2024-05-10","image":"https://cdn.pixabay.com/photo/2019/01/24/21/27/pyramids-3953368_1280.jpg","author":"Laura Thompson","content":"Archaeologists have uncovered a 4,500-year-old L-shaped structure near the Great Pyramid of Giza, shedding new light on ancient Egyptian architecture."},{"id":9,"type":"science","headline":"New insights into Homo naledi burial practices","date":"2024-05-10","image":"https://cdn.pixabay.com/photo/2017/04/19/14/14/homo-erectus-2242425_1280.jpg","author":"David Brown","content":"Recent studies suggest that Homo naledi, a species of early hominids, might have buried their dead, providing new insights into the evolution of burial practices."},{"id":10,"type":"science","headline":"AI making 2,000-year-old scrolls readable again","date":"2024-05-02","image":"https://cdn.pixabay.com/photo/2012/10/26/01/19/papyrus-63004_1280.jpg","author":"Sophia Li","content":"Innovative AI technology is helping researchers read ancient scrolls that were previously unreadable, unlocking mysteries from thousands of years ago."}]')
+        .then(response => response.json())
+        .then(data => {
+            
+            function createArticle(article) {
+                const articleElement = document.createElement('div');
+                articleElement.classList.add('article');
+
+                if (article.type === 'featured') {
+                    articleElement.innerHTML = `
+                        <h2>${article.headline}</h2>
+                        <img src="${article.image}" alt="${article.headline}">
+                        <p>By ${article.author} | ${article.date} | ${article.type}</p>
+                        <p>${article.content}</p>
+                    `;
+                } else {
+                    articleElement.innerHTML = `
+                        <h2>${article.headline}</h2>
+                        <img src="${article.image}" alt="${article.headline}">
+                        <p>${article.date}</p>
+                    `;
+                }
+
+                return articleElement;
+            }
+
+            const featuredArticlesContainer = document.querySelector('.mybox1');
+            const regularArticlesContainer = document.querySelector('.mybox2');
+
+            data.forEach(article => {
+                if (article.type === 'featured') {
+                    featuredArticlesContainer.appendChild(createArticle(article));
+                } else {
+                    regularArticlesContainer.appendChild(createArticle(article));
+                }
+            });
+        })
+        .catch(error => console.error('Error fetching data:', error));
+});
+
+    </script>
+</body>
+</html>
